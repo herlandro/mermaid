@@ -11,6 +11,7 @@ sequenceDiagram
   Server->>App: Authenticate and reply
   App->>User: Redirect user to the Home Screen
 ```
+```mermaid
 classDiagram
     Animal <|-- Duck
     Animal <|-- Fish
@@ -32,3 +33,4 @@ classDiagram
       +bool is_wild
       +run()
     }
+```
