@@ -1,17 +1,4 @@
 ```mermaid
-sequenceDiagram
-  participant User
-  participant App
-  participant Server
-
-  User->>App: Launch the application
-  App->>User: Show Login Screen
-  User->>App: Enter email and password, then click send button
-  App->>Server: Send credentials
-  Server->>App: Authenticate and reply
-  App->>User: Redirect user to the Home Screen
-```
-```mermaid
 classDiagram
     Animal <|-- Duck
     Animal <|-- Fish
@@ -34,3 +21,4 @@ classDiagram
       +run()
     }
 ```
+
